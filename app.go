@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-
-	. "./config"
-	. "./dao"
+	
+	. "github.com/rene-meza/peliculas/config"
+	. "github.com/rene-meza/peliculas/dao"
+	. "github.com/rene-meza/models"
 	"github.com/gorilla/mux"
 )
 
